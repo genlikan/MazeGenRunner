@@ -1,0 +1,73 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1710294971",
+        "python_version": "3.10.12 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 19:01:18) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\tbont\\anaconda3\\envs\\mlagents\\Scripts\\mlagents-learn RollerballConfig2.yaml --run-id=MazeRunner_21",
+        "mlagents_version": "1.1.0.dev0",
+        "mlagents_envs_version": "1.1.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.13.1+cu117",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1710295065"
+    },
+    "total": 93.93155969999498,
+    "count": 1,
+    "self": 10.004811000020709,
+    "children": {
+        "run_training.setup": {
+            "total": 0.0647084999945946,
+            "count": 1,
+            "self": 0.0647084999945946
+        },
+        "TrainerController.start_learning": {
+            "total": 83.86204019997967,
+            "count": 1,
+            "self": 0.00024240004131570458,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 13.198117099993397,
+                    "count": 1,
+                    "self": 13.198117099993397
+                },
+                "TrainerController.advance": {
+                    "total": 70.49208539997926,
+                    "count": 1,
+                    "self": 1.299992436543107e-05,
+                    "children": {
+                        "env_step": {
+                            "total": 70.4920724000549,
+                            "count": 1,
+                            "self": 70.49205240001902,
+                            "children": {
+                                "SubprocessEnvManager._take_step": {
+                                    "total": 2.0000035874545574e-05,
+                                    "count": 2,
+                                    "self": 2.0000035874545574e-05
+                                }
+                            }
+                        }
+                    }
+                },
+                "trainer_threads": {
+                    "total": 7.00005330145359e-07,
+                    "count": 1,
+                    "self": 7.00005330145359e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 0.17159459996037185,
+                    "count": 1,
+                    "self": 0.008092799980659038,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.16350179997971281,
+                            "count": 1,
+                            "self": 0.16350179997971281
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

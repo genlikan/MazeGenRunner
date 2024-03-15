@@ -1,0 +1,47 @@
+{
+    "RollerAgent": {
+        "checkpoints": [
+            {
+                "steps": 499941,
+                "file_path": "results\\MazeRunner_Seed42_NumLayer3_MPR5_MS_3x3_MaxStep1e6_0\\RollerAgent\\RollerAgent-499941.onnx",
+                "reward": 419.5236315791243,
+                "creation_time": 1710470649.846362,
+                "auxillary_file_paths": [
+                    "results\\MazeRunner_Seed42_NumLayer3_MPR5_MS_3x3_MaxStep1e6_0\\RollerAgent\\RollerAgent-499941.pt"
+                ]
+            },
+            {
+                "steps": 999949,
+                "file_path": "results\\MazeRunner_Seed42_NumLayer3_MPR5_MS_3x3_MaxStep1e6_0\\RollerAgent\\RollerAgent-999949.onnx",
+                "reward": 440.7444085025787,
+                "creation_time": 1710470985.1385894,
+                "auxillary_file_paths": [
+                    "results\\MazeRunner_Seed42_NumLayer3_MPR5_MS_3x3_MaxStep1e6_0\\RollerAgent\\RollerAgent-999949.pt"
+                ]
+            },
+            {
+                "steps": 1000525,
+                "file_path": "results\\MazeRunner_Seed42_NumLayer3_MPR5_MS_3x3_MaxStep1e6_0\\RollerAgent\\RollerAgent-1000525.onnx",
+                "reward": 440.7444085025787,
+                "creation_time": 1710470985.2285438,
+                "auxillary_file_paths": [
+                    "results\\MazeRunner_Seed42_NumLayer3_MPR5_MS_3x3_MaxStep1e6_0\\RollerAgent\\RollerAgent-1000525.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000525,
+            "file_path": "results\\MazeRunner_Seed42_NumLayer3_MPR5_MS_3x3_MaxStep1e6_0\\RollerAgent.onnx",
+            "reward": 440.7444085025787,
+            "creation_time": 1710470985.2285438,
+            "auxillary_file_paths": [
+                "results\\MazeRunner_Seed42_NumLayer3_MPR5_MS_3x3_MaxStep1e6_0\\RollerAgent\\RollerAgent-1000525.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "1.13.1+cu117"
+    }
+}

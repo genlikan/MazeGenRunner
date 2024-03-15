@@ -1,0 +1,47 @@
+{
+    "RollerAgent": {
+        "checkpoints": [
+            {
+                "steps": 499982,
+                "file_path": "results\\MazeRunner_Seed42_NumLayer2_MPR3_MS_3x3_MaxStep1e6_0\\RollerAgent\\RollerAgent-499982.onnx",
+                "reward": 1100.9261348843575,
+                "creation_time": 1710468459.061996,
+                "auxillary_file_paths": [
+                    "results\\MazeRunner_Seed42_NumLayer2_MPR3_MS_3x3_MaxStep1e6_0\\RollerAgent\\RollerAgent-499982.pt"
+                ]
+            },
+            {
+                "steps": 999947,
+                "file_path": "results\\MazeRunner_Seed42_NumLayer2_MPR3_MS_3x3_MaxStep1e6_0\\RollerAgent\\RollerAgent-999947.onnx",
+                "reward": null,
+                "creation_time": 1710469029.76761,
+                "auxillary_file_paths": [
+                    "results\\MazeRunner_Seed42_NumLayer2_MPR3_MS_3x3_MaxStep1e6_0\\RollerAgent\\RollerAgent-999947.pt"
+                ]
+            },
+            {
+                "steps": 1000395,
+                "file_path": "results\\MazeRunner_Seed42_NumLayer2_MPR3_MS_3x3_MaxStep1e6_0\\RollerAgent\\RollerAgent-1000395.onnx",
+                "reward": null,
+                "creation_time": 1710469029.8415926,
+                "auxillary_file_paths": [
+                    "results\\MazeRunner_Seed42_NumLayer2_MPR3_MS_3x3_MaxStep1e6_0\\RollerAgent\\RollerAgent-1000395.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000395,
+            "file_path": "results\\MazeRunner_Seed42_NumLayer2_MPR3_MS_3x3_MaxStep1e6_0\\RollerAgent.onnx",
+            "reward": null,
+            "creation_time": 1710469029.8415926,
+            "auxillary_file_paths": [
+                "results\\MazeRunner_Seed42_NumLayer2_MPR3_MS_3x3_MaxStep1e6_0\\RollerAgent\\RollerAgent-1000395.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "1.13.1+cu117"
+    }
+}

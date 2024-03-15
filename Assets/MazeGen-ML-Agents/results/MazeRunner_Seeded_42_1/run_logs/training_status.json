@@ -1,0 +1,65 @@
+{
+    "RollerAgent": {
+        "checkpoints": [
+            {
+                "steps": 3499999,
+                "file_path": "results\\MazeRunner_Seeded_42_1\\RollerAgent\\RollerAgent-3499999.onnx",
+                "reward": -0.9833390701928905,
+                "creation_time": 1710358446.9467287,
+                "auxillary_file_paths": [
+                    "results\\MazeRunner_Seeded_42_1\\RollerAgent\\RollerAgent-3499999.pt"
+                ]
+            },
+            {
+                "steps": 3999996,
+                "file_path": "results\\MazeRunner_Seeded_42_1\\RollerAgent\\RollerAgent-3999996.onnx",
+                "reward": -0.9860384206060954,
+                "creation_time": 1710359053.5428445,
+                "auxillary_file_paths": [
+                    "results\\MazeRunner_Seeded_42_1\\RollerAgent\\RollerAgent-3999996.pt"
+                ]
+            },
+            {
+                "steps": 4499997,
+                "file_path": "results\\MazeRunner_Seeded_42_1\\RollerAgent\\RollerAgent-4499997.onnx",
+                "reward": -0.982943562911107,
+                "creation_time": 1710359673.3656583,
+                "auxillary_file_paths": [
+                    "results\\MazeRunner_Seeded_42_1\\RollerAgent\\RollerAgent-4499997.pt"
+                ]
+            },
+            {
+                "steps": 4999999,
+                "file_path": "results\\MazeRunner_Seeded_42_1\\RollerAgent\\RollerAgent-4999999.onnx",
+                "reward": -0.9790797402336255,
+                "creation_time": 1710360283.636234,
+                "auxillary_file_paths": [
+                    "results\\MazeRunner_Seeded_42_1\\RollerAgent\\RollerAgent-4999999.pt"
+                ]
+            },
+            {
+                "steps": 5000002,
+                "file_path": "results\\MazeRunner_Seeded_42_1\\RollerAgent\\RollerAgent-5000002.onnx",
+                "reward": -0.9790634194469644,
+                "creation_time": 1710360283.6811843,
+                "auxillary_file_paths": [
+                    "results\\MazeRunner_Seeded_42_1\\RollerAgent\\RollerAgent-5000002.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5000002,
+            "file_path": "results\\MazeRunner_Seeded_42_1\\RollerAgent.onnx",
+            "reward": -0.9790634194469644,
+            "creation_time": 1710360283.6811843,
+            "auxillary_file_paths": [
+                "results\\MazeRunner_Seeded_42_1\\RollerAgent\\RollerAgent-5000002.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "1.13.1+cu117"
+    }
+}

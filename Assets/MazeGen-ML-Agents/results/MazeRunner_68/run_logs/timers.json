@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1710350829",
+        "python_version": "3.10.12 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 19:01:18) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\tbont\\anaconda3\\envs\\mlagents\\Scripts\\mlagents-learn RollerballConfig.yaml --run-id=MazeRunner_68",
+        "mlagents_version": "1.1.0.dev0",
+        "mlagents_envs_version": "1.1.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.13.1+cu117",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1710350892"
+    },
+    "total": 62.424008399946615,
+    "count": 1,
+    "self": 0.00512479996541515,
+    "children": {
+        "run_training.setup": {
+            "total": 0.07252749998588115,
+            "count": 1,
+            "self": 0.07252749998588115
+        },
+        "TrainerController.start_learning": {
+            "total": 62.34635609999532,
+            "count": 1,
+            "self": 6.959994789212942e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 62.346271600050386,
+                    "count": 1,
+                    "self": 62.346271600050386
+                },
+                "TrainerController._save_models": {
+                    "total": 1.4899997040629387e-05,
+                    "count": 1,
+                    "self": 1.4899997040629387e-05
+                }
+            }
+        }
+    }
+}

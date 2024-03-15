@@ -1,0 +1,47 @@
+{
+    "RollerAgent": {
+        "checkpoints": [
+            {
+                "steps": 499959,
+                "file_path": "results\\MazeRunner_Seed42_NumLayer2_MPR7_MS_3x3_MaxStep1e6_0\\RollerAgent\\RollerAgent-499959.onnx",
+                "reward": null,
+                "creation_time": 1710471866.4404304,
+                "auxillary_file_paths": [
+                    "results\\MazeRunner_Seed42_NumLayer2_MPR7_MS_3x3_MaxStep1e6_0\\RollerAgent\\RollerAgent-499959.pt"
+                ]
+            },
+            {
+                "steps": 999938,
+                "file_path": "results\\MazeRunner_Seed42_NumLayer2_MPR7_MS_3x3_MaxStep1e6_0\\RollerAgent\\RollerAgent-999938.onnx",
+                "reward": null,
+                "creation_time": 1710472112.2019987,
+                "auxillary_file_paths": [
+                    "results\\MazeRunner_Seed42_NumLayer2_MPR7_MS_3x3_MaxStep1e6_0\\RollerAgent\\RollerAgent-999938.pt"
+                ]
+            },
+            {
+                "steps": 1002050,
+                "file_path": "results\\MazeRunner_Seed42_NumLayer2_MPR7_MS_3x3_MaxStep1e6_0\\RollerAgent\\RollerAgent-1002050.onnx",
+                "reward": null,
+                "creation_time": 1710472112.4016697,
+                "auxillary_file_paths": [
+                    "results\\MazeRunner_Seed42_NumLayer2_MPR7_MS_3x3_MaxStep1e6_0\\RollerAgent\\RollerAgent-1002050.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1002050,
+            "file_path": "results\\MazeRunner_Seed42_NumLayer2_MPR7_MS_3x3_MaxStep1e6_0\\RollerAgent.onnx",
+            "reward": null,
+            "creation_time": 1710472112.4016697,
+            "auxillary_file_paths": [
+                "results\\MazeRunner_Seed42_NumLayer2_MPR7_MS_3x3_MaxStep1e6_0\\RollerAgent\\RollerAgent-1002050.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "1.13.1+cu117"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "RollerAgent": {
+        "checkpoints": [
+            {
+                "steps": 44999950,
+                "file_path": "results\\MazeRunner_UnSeeded_5x5_run_0\\RollerAgent\\RollerAgent-44999950.onnx",
+                "reward": 282.61526815694447,
+                "creation_time": 1710414014.3913648,
+                "auxillary_file_paths": [
+                    "results\\MazeRunner_UnSeeded_5x5_run_0\\RollerAgent\\RollerAgent-44999950.pt"
+                ]
+            },
+            {
+                "steps": 45499947,
+                "file_path": "results\\MazeRunner_UnSeeded_5x5_run_0\\RollerAgent\\RollerAgent-45499947.onnx",
+                "reward": 227.26101181908015,
+                "creation_time": 1710414372.8436613,
+                "auxillary_file_paths": [
+                    "results\\MazeRunner_UnSeeded_5x5_run_0\\RollerAgent\\RollerAgent-45499947.pt"
+                ]
+            },
+            {
+                "steps": 45999948,
+                "file_path": "results\\MazeRunner_UnSeeded_5x5_run_0\\RollerAgent\\RollerAgent-45999948.onnx",
+                "reward": 336.0133431111415,
+                "creation_time": 1710414738.7594595,
+                "auxillary_file_paths": [
+                    "results\\MazeRunner_UnSeeded_5x5_run_0\\RollerAgent\\RollerAgent-45999948.pt"
+                ]
+            },
+            {
+                "steps": 46499991,
+                "file_path": "results\\MazeRunner_UnSeeded_5x5_run_0\\RollerAgent\\RollerAgent-46499991.onnx",
+                "reward": 428.82566368622656,
+                "creation_time": 1710415107.747168,
+                "auxillary_file_paths": [
+                    "results\\MazeRunner_UnSeeded_5x5_run_0\\RollerAgent\\RollerAgent-46499991.pt"
+                ]
+            },
+            {
+                "steps": 46735925,
+                "file_path": "results\\MazeRunner_UnSeeded_5x5_run_0\\RollerAgent\\RollerAgent-46735925.onnx",
+                "reward": 299.2428344918353,
+                "creation_time": 1710415384.0389524,
+                "auxillary_file_paths": [
+                    "results\\MazeRunner_UnSeeded_5x5_run_0\\RollerAgent\\RollerAgent-46735925.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 46735925,
+            "file_path": "results\\MazeRunner_UnSeeded_5x5_run_0\\RollerAgent.onnx",
+            "reward": 299.2428344918353,
+            "creation_time": 1710415384.0389524,
+            "auxillary_file_paths": [
+                "results\\MazeRunner_UnSeeded_5x5_run_0\\RollerAgent\\RollerAgent-46735925.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "1.13.1+cu117"
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1710293260",
+        "python_version": "3.10.12 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 19:01:18) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\tbont\\anaconda3\\envs\\mlagents\\Scripts\\mlagents-learn RollerballConfig2.yaml --run-id=MazeRunner_10",
+        "mlagents_version": "1.1.0.dev0",
+        "mlagents_envs_version": "1.1.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.13.1+cu117",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1710293314"
+    },
+    "total": 54.168644799967296,
+    "count": 1,
+    "self": 0.005095299973618239,
+    "children": {
+        "run_training.setup": {
+            "total": 0.06272819999139756,
+            "count": 1,
+            "self": 0.06272819999139756
+        },
+        "TrainerController.start_learning": {
+            "total": 54.10082130000228,
+            "count": 1,
+            "self": 0.00035280000884085894,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 9.16712469997583,
+                    "count": 1,
+                    "self": 9.16712469997583
+                },
+                "TrainerController.advance": {
+                    "total": 44.756708699977025,
+                    "count": 1,
+                    "self": 1.5599944163113832e-05,
+                    "children": {
+                        "env_step": {
+                            "total": 44.75669310003286,
+                            "count": 1,
+                            "self": 44.756687900051475,
+                            "children": {
+                                "SubprocessEnvManager._take_step": {
+                                    "total": 5.199981387704611e-06,
+                                    "count": 1,
+                                    "self": 5.199981387704611e-06
+                                }
+                            }
+                        }
+                    }
+                },
+                "trainer_threads": {
+                    "total": 6.00004568696022e-07,
+                    "count": 1,
+                    "self": 6.00004568696022e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 0.1766345000360161,
+                    "count": 1,
+                    "self": 0.008233500004280359,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.16840100003173575,
+                            "count": 1,
+                            "self": 0.16840100003173575
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

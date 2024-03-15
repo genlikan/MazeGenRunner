@@ -1,0 +1,38 @@
+{
+    "RollerAgent": {
+        "checkpoints": [
+            {
+                "steps": 499988,
+                "file_path": "results\\MazeRunner_73\\RollerAgent\\RollerAgent-499988.onnx",
+                "reward": -1.2727473778650165,
+                "creation_time": 1710353828.4749274,
+                "auxillary_file_paths": [
+                    "results\\MazeRunner_73\\RollerAgent\\RollerAgent-499988.pt"
+                ]
+            },
+            {
+                "steps": 926043,
+                "file_path": "results\\MazeRunner_73\\RollerAgent\\RollerAgent-926043.onnx",
+                "reward": -1.1461064349703427,
+                "creation_time": 1710354160.2502193,
+                "auxillary_file_paths": [
+                    "results\\MazeRunner_73\\RollerAgent\\RollerAgent-926043.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 926043,
+            "file_path": "results\\MazeRunner_73\\RollerAgent.onnx",
+            "reward": -1.1461064349703427,
+            "creation_time": 1710354160.2502193,
+            "auxillary_file_paths": [
+                "results\\MazeRunner_73\\RollerAgent\\RollerAgent-926043.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "1.13.1+cu117"
+    }
+}

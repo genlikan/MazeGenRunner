@@ -1,0 +1,68 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1710294259",
+        "python_version": "3.10.12 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 19:01:18) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\tbont\\anaconda3\\envs\\mlagents\\Scripts\\mlagents-learn RollerballConfig2.yaml --run-id=MazeRunner_13",
+        "mlagents_version": "1.1.0.dev0",
+        "mlagents_envs_version": "1.1.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.13.1+cu117",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1710294498"
+    },
+    "total": 238.81441059999634,
+    "count": 1,
+    "self": 0.005124500021338463,
+    "children": {
+        "run_training.setup": {
+            "total": 0.06794429995352402,
+            "count": 1,
+            "self": 0.06794429995352402
+        },
+        "TrainerController.start_learning": {
+            "total": 238.74134180002147,
+            "count": 1,
+            "self": 0.00011650007218122482,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 8.219397399981972,
+                    "count": 1,
+                    "self": 8.219397399981972
+                },
+                "TrainerController.advance": {
+                    "total": 230.29045410000253,
+                    "count": 1,
+                    "self": 1.4399993233382702e-05,
+                    "children": {
+                        "env_step": {
+                            "total": 230.2904397000093,
+                            "count": 1,
+                            "self": 230.29041890002554,
+                            "children": {
+                                "SubprocessEnvManager._take_step": {
+                                    "total": 2.0799983758479357e-05,
+                                    "count": 2,
+                                    "self": 2.0799983758479357e-05
+                                }
+                            }
+                        }
+                    }
+                },
+                "TrainerController._save_models": {
+                    "total": 0.23137379996478558,
+                    "count": 1,
+                    "self": 0.00796659995103255,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.22340720001375303,
+                            "count": 1,
+                            "self": 0.22340720001375303
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
