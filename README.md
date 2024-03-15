@@ -12,22 +12,22 @@ Responsible for generating the maze layout. It uses a specified node prefab to c
 • Dead ends are identified, and one is selected to place the reward.
 
 
-**Maze Node (MazeNode.cs):**
+## **Maze Node (MazeNode.cs):**
 
 Represents each cell or node in the maze. It can have walls removed and its state changed (e.g., available, current, completed) to reflect its role in the maze generation and navigation process.
 
 
-**Maze Manager (MazeManager.cs):**
+## **Maze Manager (MazeManager.cs):**
 
 Manages the maze environment, including generating multiple mazes, spacing between mazes, and updating maze size based on curriculum parameters from ML-Agents.
 
 
-**Roller Agent (RollerAgent.cs):**
+## **Roller Agent (RollerAgent.cs):**
 
 The agent that navigates the maze. It uses a Rigidbody for movement and detects collisions with walls and the reward.
 
 
-**Observations Defined**
+## **Observations Defined**
 
 The Roller Agent (RollerAgent.cs) collects the following observations for the learning process:
 
@@ -41,7 +41,7 @@ These observations help the agent understand its current
 state in the environment to make informed decisions.
 
 
-**Actions Defined**
+## **Actions Defined**
 
 The Roller Agent can perform the following actions based
 on the action received:
@@ -53,7 +53,7 @@ on the action received:
 These actions allow the agent to navigate through the maze.
 
 
-**Reward System**
+## **Reward System**
 
 • The agent receives a small negative reward for each time step to encourage it to find the reward quickly.
 
@@ -64,7 +64,7 @@ These actions allow the agent to navigate through the maze.
 • The agent is penalized for being stationary for too long to prevent it from getting stuck.
 
 
-**Training Process**
+## **Training Process**
 
 • At the beginning of each episode, the agent’s velocity is reset, its list of visited areas is cleared, and the progress timeout timer is reset.
 
